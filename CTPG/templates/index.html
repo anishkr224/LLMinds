@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LLMinds</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}" />
+  </head>
+  <body>
+    <div class="hero">
+        <h1><span>TATA</span> Personal Assistant</h1>
+        <form class="question-form" id="question-form">
+            <textarea id="question" placeholder="Enter a prompt here..." required></textarea>
+            <button id="button1" type="submit">
+                <img src="{{ url_for('static', filename='images/plane.png') }}" alt="Ask">Ask
+            </button>
+        </form>
+        <div class="response" id="response" style="display:none;">
+            <h2>Answer:</h2>
+            <textarea id="answer" rows="4" cols="50" readonly></textarea>
+            <button id="button2" type="button">
+                <img src="{{ url_for('static', filename='images/play.png') }}" alt="Listen">Listen
+            </button>
+        </div>
+    </div>
+    <script defer src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

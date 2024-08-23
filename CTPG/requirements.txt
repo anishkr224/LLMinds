@@ -1,0 +1,8 @@
+Flask==2.2.3
+PyPDF2==3.0.0
+requests==2.31.0
+beautifulsoup4==4.12.2
+langchain==0.0.1  # Replace with the actual version you need
+langchain-google-genai==0.0.1  # Replace with the actual version you need
+faiss-cpu==1.7.3  # Or the appropriate version based on your platform
+python-dotenv==1.0.0
