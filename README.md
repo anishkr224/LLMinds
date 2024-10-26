@@ -1,4 +1,6 @@
-### This is a Flask web application for answering user questions based on information extracted from PDF documents. Here’s a breakdown of the main functionality:
+## Real-Time Q&A System for Document-Based Insights Using FAISS and Generative AI Models
+
+#### This is a Flask web application for answering user questions based on information extracted from PDF documents. Here’s a breakdown of the main functionality:
 
 1. **Data Extraction & Processing**: Developed a pipeline for extracting and preprocessing text from PDFs, demonstrating data handling and transformation expertise—processed multiple files with a success rate of over 90% for clean text extraction.
 
