@@ -35,3 +35,7 @@
 - **PDF Directory**: The app is currently hard-coded to load PDFs from a `./us_census` directory.
 - **Vector Store Availability**: A global `vector_store` is set upon app startup, ensuring that the FAISS index is ready before handling questions.
 - **Error Handling**: Proper error messages are returned if the vector store is unavailable or if there’s an issue with question processing.
+
+### Output 
+
+    https://youtu.be/4zTNjoTxQVo?si=Fx9nh-2KpC0pY4RC
